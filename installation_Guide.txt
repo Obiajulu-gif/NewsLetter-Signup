@@ -1,0 +1,11 @@
+How to set up Heroku files
+1. After downloading the heroku app and installation, we use the "heroku login"
+command to log in to our heroku account and it will redirect us to their website.
+2. we create a "Procfile" file and add the word "web: node app.js" in it
+3. we add the "app.listen(port || localPort) " whereby localPort = 3000, port = process.env.PORT so that heroku can listen to 
+4. we use  "git add ." and "git commit -m"message" "  to setup git locally
+5. we use the "heroku create" to create our domain name in the website(it will be chosen at random but later we can change it )
+
+
+name of the project urls
+https://newsletteremmanuel.herokuapp.com/
